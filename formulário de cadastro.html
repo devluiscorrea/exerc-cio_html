@@ -2,22 +2,26 @@
 <html lang="pt-br">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Formulário de cadastro</title>
+    <title>Formulario de cadastro Exercicio</title>
 </head>
 <body>
-    <h1>Cadastro</h1>
-    <form>
-        <label for="Nome"> Seu Nome: </label >
-            <input id="Nome" type="nome" />
-        <label for="email"> Seu E-mail: </label >
-        <input id="email" type="email" />
-        <br /><br />
-        <input type="password" placeholder="Informe sua senha" />
-        <button type="submit">
-            Cadastrar
-        </button>
+    <h1>Exercício Formulario</h1>
+    <h3>Preencha com seus dados para se cadastrar</h3>
+    <form >
+        <label for="nome">Nome:</label><br>
+        <input type="text" placeholder="Nome Completo" id="nome"><br>
+        <label for="email">E_mail:</label><br>
+        <input type="email" placeholder="E_mail" id="email"><br>
+        <label for="senha">Senha:</label><br>
+        <input type="password" placeholder="Senha" name="Senha" id="senha"><br>
+    <br />
+    <button type="submit" id="Enviar">
+        Enviar
+    </button><br>
+    <br />
+    <button type="reset" id="limpar">Limpar</button>
     </form>
-    
 </body>
 </html>
